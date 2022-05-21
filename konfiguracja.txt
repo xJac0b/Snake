@@ -1,0 +1,52 @@
+wyjściowy
+$(SolutionDir)bin\$(Platform)\$(Configuration)\
+
+pośredni
+$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\
+=======
+SFML
+
+DEBUG
+winmm.lib
+opengl32.lib
+freetype.lib
+sfml-graphics-s-d.lib
+sfml-window-s-d.lib
+sfml-system-s-d.lib
+openal32.lib
+flac.lib
+vorbisenc.lib
+vorbisfile.lib
+vorbis.lib
+ogg.lib
+sfml-audio-s-d.lib
+ws2_32.lib
+sfml-network-s-d.lib
+RELEASE
+winmm.lib
+opengl32.lib
+freetype.lib
+sfml-graphics-s.lib
+sfml-window-s.lib
+sfml-system-s.lib
+openal32.lib
+flac.lib
+vorbisenc.lib
+vorbisfile.lib
+vorbis.lib
+ogg.lib
+sfml-audio-s.lib
+ws2_32.lib
+sfml-network-s.lib
+
+Preprocesor 
+SFML_STATIC;
+===
+Precompiled Headers
+(type pch.h)
+use for project
+create for pch.cpp
+=======
+System - podsystem - okno
+
+wiersz polecen: /ENTRY:"mainCRTStartup"
